@@ -1,0 +1,50 @@
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.box li {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.box li img {
+  align-self: center;
+  max-width: 250px;
+}
+
+.box li strong {
+  font-size: 16px;
+  line-height: 30px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.box li > span {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 5px 0 20px;
+}
+
+.box li button {
+  background: #7159c1;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  margin-top: auto;
+  text-align: center;
+  height: 36px;
+  font-weight: bold;
+}
+.box li button span {
+  flex: 1;
+  align-items: center;
+  font-weight: bold;
+}
+

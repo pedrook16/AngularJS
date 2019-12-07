@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.textCart{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.textCart span {
+  color: #999;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.textCart span:first-child {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}

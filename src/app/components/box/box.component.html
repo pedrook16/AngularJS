@@ -1,0 +1,10 @@
+<ul class="box">
+  <li *ngFor="let product of allProducts | async">
+    <img [src]="product.image" alt="">
+    <strong>{{product.title}}</strong>
+    <span>R$ {{product.price}}</span>
+    <button type="button" (click)="addToCart(product)">
+      <span>Add to cart</span>
+    </button>
+  </li>
+</ul>
